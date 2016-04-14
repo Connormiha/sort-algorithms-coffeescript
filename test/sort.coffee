@@ -2,6 +2,9 @@ expect = require("chai").expect
 
 tests = [
   "bubble"
+  "bubble_v2"
+  "insertion"
+  "insertion_v2"
 ]
 
 for item in tests

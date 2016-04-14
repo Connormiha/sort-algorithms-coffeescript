@@ -5,6 +5,7 @@ tests = [
   "bubble_v2"
   "insertion"
   "insertion_v2"
+  "cocktail"
 ]
 
 for item in tests

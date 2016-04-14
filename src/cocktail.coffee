@@ -8,7 +8,7 @@ swap = require "./swap"
  *###
 
 cocktailSort = (array) ->
-    array = array.slice();
+    array = array.slice()
 
     left = 0
     right = array.length - 1

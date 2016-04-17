@@ -15,25 +15,25 @@ cocktailSort = (array) ->
     swapped = true
 
     while left < right && swapped
-        swapped = false
+      swapped = false
 
-        i = left
-        while i < right
-          if array[i] > array[i + 1]
-            swap(array, i, i + 1)
-            swapped = true
-          i++
+      i = left
+      while i < right
+        if array[i] > array[i + 1]
+          swap(array, i, i + 1)
+          swapped = true
+        i++
 
-        right--
+      right--
 
-        i = right
-        while i > left
-          if array[i] < array[i - 1]
-            swap(array, i, i - 1)
-            swapped = true
-          i--
+      i = right
+      while i > left
+        if array[i] < array[i - 1]
+          swap(array, i, i - 1)
+          swapped = true
+        i--
 
-        left++
+      left++
 
     array
 

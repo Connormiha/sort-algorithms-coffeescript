@@ -1,4 +1,4 @@
-# Basis sort array algorithms in CoffeeScript
+# Basic sort array algorithms in CoffeeScript
 
 Tested with Node.js 5+
 ### Install

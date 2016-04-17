@@ -13,16 +13,16 @@ cocktailSort = (array) ->
     swapped = false
 
     while swapped || gap > 1
-        gap = parseInt(gap / 1.247) if gap > 1
+      gap = parseInt(gap / 1.247) if gap > 1
 
-        swapped = false
+      swapped = false
 
-        i = 0
-        while i + gap < array.length
-          if array[i] > array[i + gap]
-            swap(array, i, i + gap)
-            swapped = true
-          i++
+      i = 0
+      while i + gap < array.length
+        if array[i] > array[i + gap]
+          swap(array, i, i + gap)
+          swapped = true
+        i++
 
     array
 

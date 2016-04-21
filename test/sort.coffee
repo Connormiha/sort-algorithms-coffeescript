@@ -7,6 +7,7 @@ tests = [
   "insertion_v2"
   "cocktail"
   "comb"
+  "heap"
 ]
 
 for item in tests
